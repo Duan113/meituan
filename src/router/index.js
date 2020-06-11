@@ -14,9 +14,24 @@ const routes = [{
 		name: 'bottomNaviga',
 		component: BottomNaviga,
 		children: [{
-				path: '/',
+				path: '/home',
 				name: 'home',
 				component: () => import('../views/homepage/Home.vue'),
+			},
+			{
+				path: '/found',
+				name: 'found',
+				component: () => import('../views/homepage/Found.vue'),
+			},
+			{
+				path: '/orde',
+				name: 'orde',
+				component: () => import('../views/homepage/Orde.vue'),
+			},
+			{
+				path: '/my',
+				name: 'my',
+				component: () => import('../views/homepage/My.vue'),
 			},
 		],
 	},
