@@ -87,7 +87,7 @@
 					<van-swipe-item><img src="../../assets/advertising3.jpeg" /></van-swipe-item>
 				</van-swipe>
 			</div>
-		    <div id="home_bottom_bottom">
+			<div id="home_bottom_bottom">
 				<ul id="list_ul4">
 					<li>
 						<div id="li_div">
@@ -140,7 +140,7 @@
 						</div>
 					</li>
 				</ul>
-				
+
 			</div>
 		</div>
 	</div>
@@ -336,27 +336,30 @@
 		margin-top: 120px;
 		border-radius: 10px;
 	}
-		
+
 	.my-swipe .van-swipe-item {
-	    line-height: 100px;
-	    text-align: center;
+		line-height: 100px;
+		text-align: center;
 		border-radius: 10px;
 	}
-	 .my-swipe .van-swipe-item img{
-		  border-radius: 10px;
-		  width: 100%;
-		  height: 100px;
-	  }
-	  
-	#home_bottom_bottom{
+
+	.my-swipe .van-swipe-item img {
+		border-radius: 10px;
+		width: 100%;
+		height: 100px;
+	}
+
+	#home_bottom_bottom {
 		margin-top: 220px;
 		position: absolute;
 		width: 100%;
 	}
+
 	#list_ul4 {
 		margin: 0 auto;
 		overflow: hidden;
 	}
+
 	#list_ul4 li {
 		float: left;
 		width: 200px;
@@ -364,18 +367,21 @@
 		margin-top: 10px;
 		margin-left: 20px;
 	}
-	#li_div1{
+
+	#li_div1 {
 		position: absolute;
 		height: 50%;
 	}
-	#li_div1 img{
+
+	#li_div1 img {
 		position: absolute;
 		display: block;
 		border-radius: 10px 10px 0 0;
 		width: 160px;
 		height: 100px;
 	}
-	#li_div1 span{
+
+	#li_div1 span {
 		display: block;
 		background-color: #000;
 		opacity: 0.7;
@@ -385,26 +391,30 @@
 		margin-top: 80px;
 		margin-left: 10px;
 	}
-	#li_div2{
+
+	#li_div2 {
 		margin-top: 100px;
 		position: absolute;
 		height: 100px;
 		width: 160px;
-		border-radius: 0 0 10px 10px ;
+		border-radius: 0 0 10px 10px;
 	}
-	#div2_span1{
+
+	#div2_span1 {
 		position: absolute;
 		font-weight: 900;
 		font-size: 14px;
 		margin-left: -70px;
 	}
-	#div2_span2{
+
+	#div2_span2 {
 		position: absolute;
 		font-size: 10px;
 		margin-left: -70px;
 		margin-top: 20px;
 	}
-	#div2_span3{
+
+	#div2_span3 {
 		padding: 2px;
 		position: absolute;
 		font-size: 8px;
@@ -415,13 +425,15 @@
 		border: #FF3300;
 		border-radius: 5px;
 	}
-	#div2_span4{
+
+	#div2_span4 {
 		position: absolute;
 		font-size: 10px;
 		margin-left: -70px;
 		margin-top: 70px;
 	}
-	#div2_png{
+
+	#div2_png {
 		float: left;
 		position: absolute;
 		width: 20px;
@@ -429,7 +441,4 @@
 		margin-top: 65px;
 		margin-left: 50px;
 	}
-	
-	
-	
 </style>

@@ -9,17 +9,20 @@ Vue.use(Vant);
 
 Vue.config.productionTip = false;
 
-import { 
+import {
 	Tabbar,
-	TabbarItem ,
+	TabbarItem,
 	Icon,
 	Divider,
-	Grid, 
-	GridItem ,
-	Swipe, 
-	SwipeItem
-	}
-	from 'vant';
+	Grid,
+	GridItem,
+	Swipe,
+	SwipeItem,
+	Form,
+	Tab,
+	Tabs
+}
+from 'vant';
 
 Vue.use(Tabbar);
 Vue.use(TabbarItem);
@@ -29,9 +32,12 @@ Vue.use(Grid);
 Vue.use(GridItem);
 Vue.use(Swipe);
 Vue.use(SwipeItem);
+Vue.use(Form);
+Vue.use(Tab);
+Vue.use(Tabs);
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+	router,
+	store,
+	render: h => h(App)
 }).$mount("#app");

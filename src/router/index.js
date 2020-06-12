@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import BottomNaviga from '../views/homepage/BottomNaviga.vue'
-// import TopNaviga from '../views/homepage/TopNaviga.vue'
 
 Vue.use(VueRouter);
 
