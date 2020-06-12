@@ -1,10 +1,13 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import BottomNaviga from '../views/homepage/BottomNaviga.vue'
+import BottomNaviga from '../views/homepage/BottomNaviga.vue';
+import Sweep from '../views/home/Sweep.vue';
+import PersonInfo from '../views/my/PersonInfo.vue';
 
 Vue.use(VueRouter);
 
-const routes = [{
+const routes = [
+	{
 		path: '/',
 		redirect: '/BottomNaviga',
 	},
@@ -34,17 +37,16 @@ const routes = [{
 			},
 		],
 	},
-	// {
-	// 	path: '/topnaviga',
-	// 	name: 'topnaviga',
-	// 	component: TopNaviga,
-	// 	children: [{
-	// 			path: '/',
-	// 			name: 'home',
-	// 			component: () => import('../views/homepage/Home.vue'),
-	// 		},
-	// 	],
-	// },
+	{
+		path: '/sweep',
+		name: 'sweep',
+		component: Sweep,
+	},
+	{
+		path: '/perInfo',
+		name: 'perInfo',
+		component: PersonInfo,
+	},
 ];
 
 const router = new VueRouter({
