@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import BottomNaviga from '../views/homepage/BottomNaviga.vue';
 import Sweep from '../views/home/Sweep.vue';
 import PersonInfo from '../views/my/PersonInfo.vue';
+import Setting from '../views/my/Setting.vue';
 
 Vue.use(VueRouter);
 
@@ -46,6 +47,11 @@ const routes = [
 		path: '/perInfo',
 		name: 'perInfo',
 		component: PersonInfo,
+	},
+	{
+		path: '/setting',
+		name: 'setting',
+		component: Setting,
 	},
 ];
 

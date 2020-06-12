@@ -4,7 +4,7 @@
 			<router-link to="/perInfo"><img class="image_head" src="../../assets/ironman.jpg" /></router-link>
 			<span class="head_name">Shadows</span>
 			<span class="growthvalue">成长值 50 <img style="width: 10px; height: 10px;" src="../../assets/my/箭头.png" /></span>
-			<img class="sett" src="../../assets/my/设置.png" />
+			<router-link to="/setting"><img class="sett" src="../../assets/my/设置.png" /></router-link>
 			<img class="service" src="../../assets/my/客服.png" />
 			<div id="my_list1">
 				<ul id="list_ul1">
