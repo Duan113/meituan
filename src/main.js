@@ -20,7 +20,8 @@ import {
 	SwipeItem,
 	Form,
 	Tab,
-	Tabs
+	Tabs,
+	Panel
 }
 from 'vant';
 
@@ -35,6 +36,7 @@ Vue.use(SwipeItem);
 Vue.use(Form);
 Vue.use(Tab);
 Vue.use(Tabs);
+Vue.use(Panel);
 
 new Vue({
 	router,

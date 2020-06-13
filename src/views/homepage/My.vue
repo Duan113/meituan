@@ -15,11 +15,13 @@
 				</ul>
 			</div>
 		</div>
+		<router-link to="/message">
 		<div id="my_bottom1">
 			<img class="bt1_img1" src="../../assets/my/铃铛.png" />
 			<span>点击进入消息中心</span>
 			<img class="bt1_img2" src="../../assets/my/箭头.png" />
 		</div>
+		</router-link>
 		<div id="my_bottom2">
 			<span class="bt2_span1">我的订单</span>
 			<span class="bt2_span2">查看全部订单</span>

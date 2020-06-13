@@ -4,6 +4,7 @@ import BottomNaviga from '../views/homepage/BottomNaviga.vue';
 import Sweep from '../views/home/Sweep.vue';
 import PersonInfo from '../views/my/PersonInfo.vue';
 import Setting from '../views/my/Setting.vue';
+import Message from '../views/my/Message.vue';
 
 Vue.use(VueRouter);
 
@@ -53,6 +54,12 @@ const routes = [
 		name: 'setting',
 		component: Setting,
 	},
+	{
+		path: '/message',
+		name: 'message',
+		component: Message,
+	},
+	
 ];
 
 const router = new VueRouter({
