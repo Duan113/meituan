@@ -18,7 +18,7 @@
 					<span>促销活动</span>
 				</li>
 				<li>
-					<img src="../../assets/my/message/对话.png"  style="background-color: #1A94E6;"/>
+					<img src="../../assets/my/message/对话.png" style="background-color: #1A94E6;" />
 					<span>对话</span>
 				</li>
 			</ul>
@@ -105,7 +105,7 @@
 			</ul>
 		</div>
 	</div>
-	
+
 </template>
 
 <script>
@@ -132,13 +132,15 @@
 		margin-left: -300px;
 		top: 9px;
 	}
+
 	.message_top_span1 {
 		position: relative;
 		font-size: 19px;
 		left: 130px;
 		top: 6px;
 	}
-	.message_top_img2{
+
+	.message_top_img2 {
 		position: relative;
 		width: 18px;
 		height: 18px;
@@ -146,6 +148,7 @@
 		left: 295px;
 		top: 7px;
 	}
+
 	.message_top_span2 {
 		position: relative;
 		font-size: 15px;
@@ -165,8 +168,8 @@
 		background-color: #fff;
 		border-radius: 10px;
 		margin-top: -65px;
-		box-shadow:0 10px 25px #DBDBDB;
-		
+		box-shadow: 0 10px 25px #DBDBDB;
+
 	}
 
 	ul {
@@ -181,7 +184,7 @@
 		float: left;
 		width: 72px;
 		padding: 20px;
-		
+
 	}
 
 	#message_middle_ul li img {
@@ -198,51 +201,60 @@
 		font-size: 14px;
 		margin-top: 5px;
 	}
-	
-	#message_bottom{
+
+	#message_bottom {
 		position: absolute;
-		width:94%;
+		width: 94%;
 		margin-left: 3%;
 	}
-	#message_bottom_ul{
+
+	#message_bottom_ul {
 		margin-top: 70px;
 		overflow: hidden;
 	}
-	#message_bottom_ul li{
+
+	#message_bottom_ul li {
 		position: absolute;
 		width: 100%;
 	}
-	.message_bottom_img1{
+
+	.message_bottom_img1 {
 		float: left;
 		padding: 8px;
 		width: 28px;
 		height: 28px;
 		border-radius: 10px;
 	}
-	#message_bottom_div1{
+
+	#message_bottom_div1 {
 		height: 50px;
 	}
-	#message_bottom_div2{
+
+	#message_bottom_div2 {
 		float: left;
 	}
-	.message_bottom_span1{
+
+	.message_bottom_span1 {
 		position: absolute;
 		display: block;
 		margin-left: 10px;
 	}
-	.message_bottom_span2{
+
+	.message_bottom_span2 {
 		position: absolute;
 		margin-top: 15px;
 		margin-left: 10px;
 		font-size: 12px;
 		top: 13px;
 	}
-	.message_bottom_span3{
+
+	.message_bottom_span3 {
 		display: block;
 		margin-left: 280px;
 		font-size: 10px;
 	}
-	.message_bottom_span0{
+
+	.message_bottom_span0 {
 		float: left;
 		padding: 8px;
 		width: 28px;

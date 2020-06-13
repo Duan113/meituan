@@ -5,6 +5,7 @@ import Sweep from '../views/home/Sweep.vue';
 import PersonInfo from '../views/my/PersonInfo.vue';
 import Setting from '../views/my/Setting.vue';
 import Message from '../views/my/Message.vue';
+import Wallet from '../views/my/Wallet.vue';
 
 Vue.use(VueRouter);
 
@@ -58,6 +59,11 @@ const routes = [
 		path: '/message',
 		name: 'message',
 		component: Message,
+	},
+	{
+		path: '/wallet',
+		name: 'wallet',
+		component: Wallet,
 	},
 	
 ];

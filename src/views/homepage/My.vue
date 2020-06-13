@@ -15,7 +15,7 @@
 				</ul>
 			</div>
 		</div>
-		<router-link to="/message">
+		<router-link to="/message" style="color: #000;">
 		<div id="my_bottom1">
 			<img class="bt1_img1" src="../../assets/my/铃铛.png" />
 			<span>点击进入消息中心</span>
@@ -35,6 +35,7 @@
 				</ul>
 			</div>
 		</div>
+		<router-link to="/wallet" style="color: #000;">
 		<div id="my_bottom3">
 			<span class="bt3_span1">我的钱包</span>
 			<span class="bt3_span2">查看现金券</span>
@@ -64,6 +65,7 @@
 				</ul>
 			</div>
 		</div>
+		</router-link>
 		<div id="my_bottom4">
 			<span class="bt4_span1">互动签到</span>
 			<div id="my_list4">
