@@ -21,7 +21,9 @@ import {
 	Form,
 	Tab,
 	Tabs,
-	Panel
+	Panel,
+	Collapse, 
+	CollapseItem
 }
 from 'vant';
 
@@ -37,6 +39,8 @@ Vue.use(Form);
 Vue.use(Tab);
 Vue.use(Tabs);
 Vue.use(Panel);
+Vue.use(Collapse);
+Vue.use(CollapseItem);
 
 new Vue({
 	router,
