@@ -6,6 +6,8 @@ import PersonInfo from '../views/my/PersonInfo.vue';
 import Setting from '../views/my/Setting.vue';
 import Message from '../views/my/Message.vue';
 import Wallet from '../views/my/Wallet.vue';
+import Recharge from '../views/my/Recharge.vue';
+import GrabageSort from '../views/my/GrabageSort.vue';
 
 Vue.use(VueRouter);
 
@@ -64,6 +66,16 @@ const routes = [
 		path: '/wallet',
 		name: 'wallet',
 		component: Wallet,
+	},
+	{
+		path: '/recharge',
+		name: 'recharge',
+		component: Recharge,
+	},
+	{
+		path: '/grabageSort',
+		name: 'grabageSort',
+		component: GrabageSort,
 	},
 	
 ];

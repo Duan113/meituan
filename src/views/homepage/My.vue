@@ -105,8 +105,8 @@
 			<span class="bt5_span1">推荐工具</span>
 			<div id="my_list5">
 				<ul id="list_ul5">
-					<li><a><img src="../../assets/my/充值.png" /><span>充值中心</span></a></li>
-					<li><a><img src="../../assets/my/垃圾.png" /><span>垃圾分类</span></a></li>
+					<router-link to="/recharge" style="color: #000;"><li><a><img src="../../assets/my/充值.png" /><span>充值中心</span></a></li></router-link>
+					<router-link to="/grabageSort" style="color: #000;"><li><a><img src="../../assets/my/垃圾.png" /><span>垃圾分类</span></a></li></router-link>
 					<li><a><img src="../../assets/my/税务.png" /><span>新个税计算</span></a></li>
 					<li><a><img src="../../assets/my/天气.png" /><span>墨迹天气</span></a></li>
 					<li><a><img src="../../assets/my/发票.png" /><span>发票助手</span></a></li>
