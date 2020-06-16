@@ -8,7 +8,7 @@ import Message from '../views/my/Message.vue';
 import Wallet from '../views/my/Wallet.vue';
 import Recharge from '../views/my/Recharge.vue';
 import GrabageSort from '../views/my/GrabageSort.vue';
-// import Taxes from '../views/my/Taxes.vue';
+import BorrMoney from '../views/home/BorrMoney.vue';
 
 Vue.use(VueRouter);
 
@@ -82,6 +82,11 @@ const routes = [
 		path: '/taxes',
 		name: 'taxes',
 		component: () => import('../views/my/Taxes.vue'),
+	},
+	{
+		path: '/borrMoney',
+		name: 'borrMoney',
+		component: BorrMoney,
 	},
 	
 ];

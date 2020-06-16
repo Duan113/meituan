@@ -71,7 +71,7 @@
 					<li><a><img src="../../assets/icon_library/打车.png" /><span>打车</span></a></li>
 					<li><a><img src="../../assets/icon_library/景点.png" /><span>景点/门票</span></a></li>
 					<li><a><img src="../../assets/icon_library/超市.png" /><span>超市/药店</span></a></li>
-					<li><a><img src="../../assets/icon_library/钱.png" /><span>借钱/信用卡</span></a></li>
+					<router-link to="/borrMoney" style="color: #000;"><li><a><img src="../../assets/icon_library/钱.png" /><span>借钱/信用卡</span></a></li></router-link>
 					<li><a><img src="../../assets/icon_library/火车票.png" /><span>火车票/机票</span></a></li>
 					<li><a><img src="../../assets/icon_library/果树.png" /><span>免费领水果</span></a></li>
 					<li><a><img src="../../assets/icon_library/袋鼠.png" /><span>袋鼠快跑</span></a></li>
