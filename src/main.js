@@ -23,7 +23,8 @@ import {
 	Tabs,
 	Panel,
 	Collapse, 
-	CollapseItem
+	CollapseItem,
+	Switch
 }
 from 'vant';
 
@@ -41,6 +42,7 @@ Vue.use(Tabs);
 Vue.use(Panel);
 Vue.use(Collapse);
 Vue.use(CollapseItem);
+Vue.use(Switch);
 
 new Vue({
 	router,
