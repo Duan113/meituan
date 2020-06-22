@@ -24,7 +24,8 @@ import {
 	Panel,
 	Collapse, 
 	CollapseItem,
-	Switch
+	Switch,
+	Progress
 }
 from 'vant';
 
@@ -43,6 +44,7 @@ Vue.use(Panel);
 Vue.use(Collapse);
 Vue.use(CollapseItem);
 Vue.use(Switch);
+Vue.use(Progress);
 
 new Vue({
 	router,

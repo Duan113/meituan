@@ -77,7 +77,7 @@
 					<li><a><img src="../../assets/icon_library/袋鼠.png" /><span>袋鼠快跑</span></a></li>
 					<router-link to="/checkIn" style="color: #000;"><li><a><img src="../../assets/icon_library/红包.png" /><span>红包签到</span></a></li></router-link>
 					<li><a><img src="../../assets/icon_library/旅游.png" /><span>周边游/旅游</span></a></li>
-					<li><a><img src="../../assets/icon_library/更多.png" /><span>更多</span></a></li>
+					<router-link to="/more" style="color: #000;"><li><a><img src="../../assets/icon_library/更多.png" /><span>更多</span></a></li></router-link>
 				</ul>
 			</div>
 			<div id="advertising">

@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import BottomNaviga from '../views/homepage/BottomNaviga.vue';
-import Sweep from '../views/home/Sweep.vue';
 import PersonInfo from '../views/my/PersonInfo.vue';
 import Setting from '../views/my/Setting.vue';
 import Message from '../views/my/Message.vue';
@@ -11,6 +10,9 @@ import GrabageSort from '../views/my/GrabageSort.vue';
 import CheckIn from '../views/home/CheckIn.vue';
 import BorrMoney from '../views/home/BorrMoney.vue';
 import Ticket from '../views/home/Ticket.vue';
+import More from '../views/home/More.vue';
+import PubWelfare from '../views/home/more/PubWelfare.vue';
+import Borrow from '../views/my/Borrow.vue';
 
 Vue.use(VueRouter);
 
@@ -44,11 +46,6 @@ const routes = [
 				component: () => import('../views/homepage/My.vue'),
 			},
 		],
-	},
-	{
-		path: '/sweep',
-		name: 'sweep',
-		component: Sweep,
 	},
 	{
 		path: '/perInfo',
@@ -99,6 +96,26 @@ const routes = [
 		path: '/ticket',
 		name: 'ticket',
 		component: Ticket,
+	},
+	{
+		path: '/perInfo',
+		name: 'perInfo',
+		component: PersonInfo,
+	},
+	{
+		path: '/more',
+		name: 'more',
+		component: More,
+	},
+	{
+		path: '/pubWelfare',
+		name: 'pubWelfare',
+		component: PubWelfare,
+	},
+	{
+		path: '/borrow',
+		name: 'borrow',
+		component: Borrow,
 	},
 	
 ];

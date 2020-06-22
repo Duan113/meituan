@@ -223,6 +223,7 @@
 		border-radius: 20px 20px 0 0;
 		height: 950px;
 		margin-top: 132px;
+		background-color: #fff;
 	}
 
 	#ticket_middle_tick {
