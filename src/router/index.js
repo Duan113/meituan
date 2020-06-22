@@ -14,6 +14,8 @@ import More from '../views/home/More.vue';
 import PubWelfare from '../views/home/more/PubWelfare.vue';
 import Borrow from '../views/my/Borrow.vue';
 import AddBankCard from '../views/my/AddBankCard.vue';
+import MonthPay from '../views/my/MonthPay.vue';
+import Statement from '../views/my/Statement.vue';
 
 Vue.use(VueRouter);
 
@@ -122,6 +124,16 @@ const routes = [
 		path: '/addBank',
 		name: 'addBank',
 		component: AddBankCard,
+	},
+	{
+		path: '/monthPay',
+		name: 'monthPay',
+		component: MonthPay,
+	},
+	{
+		path: '/statement',
+		name: 'statement',
+		component: Statement,
 	},
 	
 ];

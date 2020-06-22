@@ -52,16 +52,16 @@
 						<span style="font-size: 12px;font-weight: 600;">月付可用</span>
 						<span style="font-size: 12px;color: #bfbfbf;">外卖红包</span>
 					</li></router-link>
-					<li>
+					<router-link to="/monthPay" style="color: #000;"><li>
 						<span style="font-size: 15px;font-weight: 600;">5.50元</span>
 						<span style="font-size: 12px;font-weight: 600;">免费领红包</span>
 						<span style="font-size: 12px;color: #bfbfbf;">全场通用</span>
-					</li>
-					<li>
+					</li></router-link>
+					<router-link to="/statement" style="color: #000;"><li>
 						<span style="font-size: 15px;font-weight: 600;">1</span>
 						<span style="font-size: 12px;font-weight: 600;">现金券</span>
 						<span style="font-size: 12px;color: #bfbfbf;">当前可用(张)</span>
-					</li>
+					</li></router-link>
 				</ul>
 			</div>
 		</div>
