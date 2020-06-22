@@ -13,6 +13,7 @@ import Ticket from '../views/home/Ticket.vue';
 import More from '../views/home/More.vue';
 import PubWelfare from '../views/home/more/PubWelfare.vue';
 import Borrow from '../views/my/Borrow.vue';
+import AddBankCard from '../views/my/AddBankCard.vue';
 
 Vue.use(VueRouter);
 
@@ -116,6 +117,11 @@ const routes = [
 		path: '/borrow',
 		name: 'borrow',
 		component: Borrow,
+	},
+	{
+		path: '/addBank',
+		name: 'addBank',
+		component: AddBankCard,
 	},
 	
 ];

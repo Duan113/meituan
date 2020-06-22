@@ -42,16 +42,16 @@
 			<img class="bt3_img" src="../../assets/my/箭头.png" />
 			<div id="my_list3">
 				<ul id="list_ul3">
-					<li>
+					<router-link to="/borrow" style="color: #000;"><li>
 						<span style="font-size: 15px;font-weight: 600;">15.9万</span>
 						<span style="font-size: 12px;font-weight: 600;">借钱</span>
 						<span style="font-size: 12px;color: #bfbfbf;">大约可借</span>
-					</li>
-					<li>
+					</li></router-link>
+					<router-link to="/addBank" style="color: #000;"><li>
 						<span style="font-size: 15px;font-weight: 600;">8张</span>
 						<span style="font-size: 12px;font-weight: 600;">月付可用</span>
 						<span style="font-size: 12px;color: #bfbfbf;">外卖红包</span>
-					</li>
+					</li></router-link>
 					<li>
 						<span style="font-size: 15px;font-weight: 600;">5.50元</span>
 						<span style="font-size: 12px;font-weight: 600;">免费领红包</span>
