@@ -16,6 +16,7 @@ import Borrow from '../views/my/Borrow.vue';
 import AddBankCard from '../views/my/AddBankCard.vue';
 import MonthPay from '../views/my/MonthPay.vue';
 import Statement from '../views/my/Statement.vue';
+import Evaluation from '../views/my/Evaluation.vue';
 
 Vue.use(VueRouter);
 
@@ -134,6 +135,11 @@ const routes = [
 		path: '/statement',
 		name: 'statement',
 		component: Statement,
+	},
+	{
+		path: '/evaluation',
+		name: 'evaluation',
+		component: Evaluation,
 	},
 	
 ];

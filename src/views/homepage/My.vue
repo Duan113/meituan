@@ -9,7 +9,7 @@
 			<div id="my_list1">
 				<ul id="list_ul1">
 					<li><a><img src="../../assets/my/收藏.png" /><span>收藏</span></a></li>
-					<li><a><img src="../../assets/my/评价.png" /><span>评价</span></a></li>
+					<router-link to="/evaluation" style="color: #000;"><li><a><img src="../../assets/my/评价.png" /><span>评价</span></a></li></router-link>
 					<li><a><img src="../../assets/my/足迹.png" /><span>足迹</span></a></li>
 					<li><a><img src="../../assets/my/卡券.png" /><span>红包卡券</span></a></li>
 				</ul>
