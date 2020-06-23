@@ -1,6 +1,23 @@
 <template>
 	<div>
 		<div id="home_top">
+			<div id="daohang">
+				<div id="home_top_daohang_left">
+					<span class="daohang_left_span1">南京 &nbsp;<img src="../../assets/箭头下.png" /></span>
+					<span class="daohang_left_span2">小雨 25C</span>
+				</div>
+				<div id="home_top_daohang_middle">
+					<van-form>
+						<van-field>
+						</van-field>
+					</van-form>
+					<img src="../../assets/orde/搜索.png" />
+					<span>1点点(外卖)</span>
+				</div>
+				<img class="home_top_daohang_img1" src="../../assets/语音.png" />
+				<img class="home_top_daohang_img2" src="../../assets/加号.png" />
+			</div>
+			
 			<div id="home_top_top">
 				<span>热搜:</span>
 				<span style="margin-left: 10px;">自助餐</span>&nbsp;|
@@ -165,8 +182,77 @@
 		left: 0;
 		box-shadow: 0 -50px 60px 0 #ffffff inset;
 	}
-
-	#home_top_top {
+	
+	#daohang{
+		padding: 3%;
+		margin-left: 2%;
+		width: 90%;
+		text-align: left;
+	}
+	#home_top_daohang_left{
+		float: left;
+		width: 15%;
+	}
+	.daohang_left_span1{
+		display: block;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.daohang_left_span1 img{
+		width: 12px;
+		height: 12px;
+	}
+	.daohang_left_span2{
+		font-size: 12px;
+	}
+	
+	#home_top_daohang_middle{
+		float: left;
+		margin-left: 10px;
+		width: 60%;
+	}
+	.van-form {
+		position: relative;
+		left: 0;
+		top: -5px;
+		width: 100%;
+	}
+	
+	.van-field {
+		border-radius: 10px;
+		width: 100%;
+		height: 30px;
+	}
+	
+	#home_top_daohang_middle img{
+		position: relative;
+		width: 20px;
+		height: 20px;
+		top: -30px;
+		left: 5px;
+	}
+	
+	#home_top_daohang_middle span{
+		position: relative;
+		font-size: 13px;
+		color: #999;
+		top: -35px;
+		left: 8px;
+	}
+	
+	.home_top_daohang_img1{
+		width: 20px;
+		height: 20px;
+		margin-left: 20px;
+	}
+	.home_top_daohang_img2{
+		width: 20px;
+		height: 20px;
+		margin-left: 10px;
+	}
+	
+	
+    #home_top_top {
 		width: 90%;
 		position: absolute;
 		margin-top: 10px;
@@ -183,7 +269,7 @@
 		width: 90%;
 		height: 130px;
 		margin-left: 5%;
-		margin-top: 130px;
+		margin-top: 110px;
 		border-radius: 15px;
 	}
 
@@ -197,7 +283,7 @@
 		position: absolute;
 		width: 90%;
 		margin-left: 10%;
-		margin-top: 50px;
+		margin-top: 40px;
 	}
 
 	ul {

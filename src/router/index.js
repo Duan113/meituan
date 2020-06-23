@@ -19,6 +19,7 @@ import Statement from '../views/my/Statement.vue';
 import Evaluation from '../views/my/Evaluation.vue';
 import RedCard from '../views/my/RedCard.vue';
 import Footprint from '../views/my/Footprint.vue';
+import Cooperation from '../views/my/Cooperation.vue';
 
 Vue.use(VueRouter);
 
@@ -152,6 +153,11 @@ const routes = [
 		path: '/footprint',
 		name: 'footprint',
 		component: Footprint,
+	},
+	{
+		path: '/cooperation',
+		name: 'cooperation',
+		component: Cooperation,
 	},
 	
 ];

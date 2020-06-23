@@ -6,8 +6,8 @@
 			<span class="growthvalue">成长值 50 <img style="width: 10px; height: 10px;" src="../../assets/my/箭头.png" /></span>
 			<router-link to="/setting"><img class="sett" src="../../assets/my/设置.png" /></router-link>
 			<img class="service" src="../../assets/my/客服.png" />
-			<div id="my_list1">
-				<ul id="list_ul1">
+			<div id="top_my_list1">
+				<ul id="top_list_ul1">
 					<li><a><img src="../../assets/my/收藏.png" /><span>收藏</span></a></li>
 					<router-link to="/evaluation" style="color: #000;"><li><a><img src="../../assets/my/评价.png" /><span>评价</span></a></li></router-link>
 					<router-link to="/footprint" style="color: #000;"><li><a><img src="../../assets/my/足迹.png" /><span>足迹</span></a></li></router-link>
@@ -26,8 +26,8 @@
 			<span class="bt2_span1">我的订单</span>
 			<span class="bt2_span2">查看全部订单</span>
 			<img class="bt2_img" src="../../assets/my/箭头.png" />
-			<div id="my_list2">
-				<ul id="list_ul2">
+			<div id="bottom2_my_list2">
+				<ul id="bottom2_list_ul2">
 					<li><a><img src="../../assets/my/付款.png" /><span>待付款</span></a></li>
 					<li><a><img src="../../assets/my/待使用.png" /><span>待使用</span></a></li>
 					<li><a><img src="../../assets/my/评价1.png" /><span>待评价</span></a></li>
@@ -111,7 +111,7 @@
 					<li><a><img src="../../assets/my/天气.png" /><span>墨迹天气</span></a></li>
 					<li><a><img src="../../assets/my/发票.png" /><span>发票助手</span></a></li>
 					<li><a><img src="../../assets/my/大学.png" /><span>美团大学</span></a></li>
-					<li><a><img src="../../assets/my/合作.png" /><span>我要合作</span></a></li>
+					<router-link to="/cooperation" style="color: #000;"><li><a><img src="../../assets/my/合作.png" /><span>我要合作</span></a></li></router-link>
 				</ul>
 			</div>
 		</div>
@@ -180,7 +180,7 @@
 		left: 40px;
 	}
 
-	#my_list1 {
+	#top_my_list1 {
 		position: absolute;
 		width: 90%;
 		height: auto;
@@ -192,28 +192,28 @@
 		list-style: none;
 	}
 
-	#list_ul1 li {
+	#top_list_ul1 li {
 		float: left;
 		width: 83px;
 	}
 
-	#list_ul1 {
+	#top_list_ul1 {
 		margin: 0 auto;
 		overflow: hidden;
 	}
 
-	#list_ul1 a {
+	#top_list_ul1 a {
 		color: black;
 	}
 
-	#list_ul1 li img {
+	#top_list_ul1 li img {
 		display: block;
 		margin: 0 auto;
 		width: 35px;
 		height: 35px;
 	}
 
-	#list_ul1 li span {
+	#top_list_ul1 li span {
 		margin-top: 2px;
 		display: block;
 		font-size: 12px;
@@ -287,7 +287,7 @@
 		left: 73px;
 	}
 
-	#my_list2 {
+	#bottom2_my_list2 {
 		position: absolute;
 		width: 90%;
 		height: 100px;
@@ -295,23 +295,23 @@
 		margin-top: 5px;
 	}
 
-	#list_ul2 li {
+	#bottom2_list_ul2 li {
 		float: left;
 		width: 70px;
 		height: 80px;
 		margin-left: 5px;
 	}
 
-	#list_ul2 {
+	#bottom2_list_ul2 {
 		margin: 0 auto;
 		overflow: hidden;
 	}
 
-	#list_ul2 a {
+	#bottom2_list_ul2 a {
 		color: black;
 	}
 
-	#list_ul2 li img {
+	#bottom2_list_ul2 li img {
 		display: block;
 		margin: 0 auto;
 		width: 35px;
@@ -319,7 +319,7 @@
 		margin-left: 18px;
 	}
 
-	#list_ul2 li span {
+	#bottom2_list_ul2 li span {
 		margin-top: 38px;
 		display: block;
 		font-size: 12px;
