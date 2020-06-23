@@ -20,6 +20,7 @@ import Evaluation from '../views/my/Evaluation.vue';
 import RedCard from '../views/my/RedCard.vue';
 import Footprint from '../views/my/Footprint.vue';
 import Cooperation from '../views/my/Cooperation.vue';
+import Invoice from '../views/my/Invoice.vue';
 
 Vue.use(VueRouter);
 
@@ -159,7 +160,11 @@ const routes = [
 		name: 'cooperation',
 		component: Cooperation,
 	},
-	
+	{
+		path: '/invoice',
+		name: 'invoice',
+		component: Invoice,
+	},
 ];
 
 const router = new VueRouter({

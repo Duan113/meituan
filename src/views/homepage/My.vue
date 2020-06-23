@@ -109,7 +109,7 @@
 					<router-link to="/grabageSort" style="color: #000;"><li><a><img src="../../assets/my/垃圾.png" /><span>垃圾分类</span></a></li></router-link>
 					<router-link to="/taxes" style="color: #000;"><li><a><img src="../../assets/my/税务.png" /><span>新个税计算</span></a></li></router-link>
 					<li><a><img src="../../assets/my/天气.png" /><span>墨迹天气</span></a></li>
-					<li><a><img src="../../assets/my/发票.png" /><span>发票助手</span></a></li>
+					<router-link to="/invoice"><li><a><img src="../../assets/my/发票.png" /><span>发票助手</span></a></li></router-link>
 					<li><a><img src="../../assets/my/大学.png" /><span>美团大学</span></a></li>
 					<router-link to="/cooperation" style="color: #000;"><li><a><img src="../../assets/my/合作.png" /><span>我要合作</span></a></li></router-link>
 				</ul>
