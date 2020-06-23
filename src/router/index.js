@@ -18,6 +18,7 @@ import MonthPay from '../views/my/MonthPay.vue';
 import Statement from '../views/my/Statement.vue';
 import Evaluation from '../views/my/Evaluation.vue';
 import RedCard from '../views/my/RedCard.vue';
+import Footprint from '../views/my/Footprint.vue';
 
 Vue.use(VueRouter);
 
@@ -146,6 +147,11 @@ const routes = [
 		path: '/redCard',
 		name: 'redCard',
 		component: RedCard,
+	},
+	{
+		path: '/footprint',
+		name: 'footprint',
+		component: Footprint,
 	},
 	
 ];

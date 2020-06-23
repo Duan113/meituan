@@ -84,7 +84,7 @@
 	#redCard {
 		position: absolute;
 		width: 100%;
-		height: 250%;
+		height: 100%;
 		background-color: #F7F7F7;
 	}
 
