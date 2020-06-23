@@ -21,6 +21,7 @@ import RedCard from '../views/my/RedCard.vue';
 import Footprint from '../views/my/Footprint.vue';
 import Cooperation from '../views/my/Cooperation.vue';
 import Invoice from '../views/my/Invoice.vue';
+import MeituanCard from '../views/my/wallet/MeituanCard';;
 
 Vue.use(VueRouter);
 
@@ -164,6 +165,11 @@ const routes = [
 		path: '/invoice',
 		name: 'invoice',
 		component: Invoice,
+	},
+	{
+		path: '/meituanCard',
+		name: 'meituanCard',
+		component: MeituanCard,
 	},
 ];
 

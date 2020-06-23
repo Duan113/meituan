@@ -180,7 +180,7 @@
 		height: 100%;
 		top: 0;
 		left: 0;
-		box-shadow: 0 -50px 60px 0 #ffffff inset;
+		box-shadow: 0 -40px 60px 0 #ffffff inset;
 	}
 	
 	#daohang{

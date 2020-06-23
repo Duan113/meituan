@@ -317,10 +317,11 @@
 		width: 35px;
 		height: 35px;
 		margin-left: 18px;
+		margin-top: 10px;
 	}
 
 	#bottom2_list_ul2 li span {
-		margin-top: 38px;
+		margin-top: 10px;
 		display: block;
 		font-size: 12px;
 	}

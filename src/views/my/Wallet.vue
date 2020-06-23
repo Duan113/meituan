@@ -34,7 +34,7 @@
 		</div>
 
 		<div id="wallet_div5">
-			<ul id="list_ul1">
+			<ul id="wallet_list_ul1">
 				<li><a>
 						<img src="../../assets/my/wallet/信用卡.png" />
 						<span>美团信用卡</span></a>
@@ -51,10 +51,10 @@
 						<img src="../../assets/my/wallet/生意贷.png" />
 						<span>生意贷</span></a>
 				</li>
-				<li><a>
+				<router-link to="/meituanCard" style="color: #000;"><li><a>
 						<img src="../../assets/my/wallet/账单.png" />
-						<span>账单</span></a>
-				</li>
+						<span>美团卡</span></a>
+				</li></router-link>
 			</ul>
 		</div>
 
@@ -248,28 +248,28 @@
 		list-style: none;
 	}
 
-	#list_ul1 li {
+	#wallet_list_ul1 li {
 		float: left;
 		width: 61px;
 	}
 
-	#list_ul1 {
+	#wallet_list_ul1 {
 		margin: 0 auto;
 		overflow: hidden;
 	}
 
-	#list_ul1 a {
+	#wallet_list_ul1 a {
 		color: black;
 	}
 
-	#list_ul1 li img {
+	#wallet_list_ul1 li img {
 		display: block;
 		margin: 0 auto;
 		width: 25px;
 		height: 25px;
 	}
 
-	#list_ul1 li span {
+	#wallet_list_ul1 li span {
 		margin-top: 2px;
 		display: block;
 		font-size: 12px;
