@@ -2,8 +2,8 @@
 	<div id="cooperation">
 		<div id="cooperation_top">
 			<img src="../../assets/my/箭头左.png" />
-			<span>设置</span>
-			<img src="../../assets/my/coopertion/分享.png" style="left: 270px;" />
+			<span>我要合作</span>
+			<img src="../../assets/my/coopertion/分享.png" style="left: 230px;" />
 		</div>
 		<div id="cooperation_div1">
 			<div id="cooperation_div1_title">
@@ -156,7 +156,7 @@
 		font-size: 19px;
 		font-weight: 500;
 		top: 8px;
-		left: 150px;
+		left: 120px;
 	}
 
 	#cooperation_div1 {

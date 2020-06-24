@@ -21,7 +21,8 @@ import RedCard from '../views/my/RedCard.vue';
 import Footprint from '../views/my/Footprint.vue';
 import Cooperation from '../views/my/Cooperation.vue';
 import Invoice from '../views/my/Invoice.vue';
-import MeituanCard from '../views/my/wallet/MeituanCard';;
+import MeituanCard from '../views/my/wallet/MeituanCard';
+import JointCard from '../views/my/wallet/JointCard.vue';
 
 Vue.use(VueRouter);
 
@@ -170,6 +171,11 @@ const routes = [
 		path: '/meituanCard',
 		name: 'meituanCard',
 		component: MeituanCard,
+	},
+	{
+		path: '/jointCard',
+		name: 'jointCard',
+		component: JointCard,
 	},
 ];
 

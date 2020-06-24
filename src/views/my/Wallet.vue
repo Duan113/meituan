@@ -9,7 +9,9 @@
 
 		<div id="wallet_div2">
 			<span class="wallet_div2_span1">Shadows的钱包</span>
-			<span class="wallet_div2_span2"><img src="../../assets/my/wallet/实名认证.png" />&nbsp;已实名认证</span>
+			<span class="wallet_div2_span2">
+				<img src="../../assets/my/wallet/实名认证.png" />&nbsp;已实名认证
+			</span>
 		</div>
 
 		<div id="wallet_div3">
@@ -23,38 +25,54 @@
 			</div>
 			<div style="position: relative;width: 100%;height: 1px;background-color: #d7d7d7;top: 30px;"></div>
 			<div style="margin-top: 14px;">
-				<span class="wallet_div3_span5">现金券(张)<span style="color: #FF0000;">&nbsp;0</span></span>
+				<span class="wallet_div3_span5">
+					现金券(张)
+					<span style="color: #FF0000;">&nbsp;0</span>
+				</span>
 				<span class="wallet_div3_span6">领取更多新人优惠</span>
 			</div>
 		</div>
 
 		<div id="wallet_div4">
-			<!-- <img src="../../assets/mtyf.jpg" style="float: left;" /> -->
 			<img src="../../assets/jq.jpg" />
 		</div>
 
 		<div id="wallet_div5">
 			<ul id="wallet_list_ul1">
-				<li><a>
+				<router-link to="/jointCard" style="color: #000;">
+				<li>
+					<a>
 						<img src="../../assets/my/wallet/信用卡.png" />
-						<span>美团信用卡</span></a>
+						<span>美团信用卡</span>
+					</a>
 				</li>
-				<li><a>
+				</router-link>
+				<li>
+					<a>
 						<img src="../../assets/my/wallet/互助.png" />
-						<span>美团互助</span></a>
+						<span>美团互助</span>
+					</a>
 				</li>
-				<li><a>
+				<li>
+					<a>
 						<img src="../../assets/my/wallet/理财.png" />
-						<span>美团理财</span></a>
+						<span>美团理财</span>
+					</a>
 				</li>
-				<li><a>
+				<li>
+					<a>
 						<img src="../../assets/my/wallet/生意贷.png" />
-						<span>生意贷</span></a>
+						<span>生意贷</span>
+					</a>
 				</li>
-				<router-link to="/meituanCard" style="color: #000;"><li><a>
-						<img src="../../assets/my/wallet/账单.png" />
-						<span>美团卡</span></a>
-				</li></router-link>
+				<router-link to="/meituanCard" style="color: #000;">
+					<li>
+						<a>
+							<img src="../../assets/my/wallet/账单.png" />
+							<span>美团卡</span>
+						</a>
+					</li>
+				</router-link>
 			</ul>
 		</div>
 
@@ -65,28 +83,36 @@
 						<span class="wallet_li_span1">新人福利</span>
 						<span class="wallet_li_span2">专属权益等你拿</span>
 					</div>
-					<span class="wallet_li_span3"><img class="wallet_li_img" src="../../assets/my/领取红包.png" /></span>
+					<span class="wallet_li_span3">
+						<img class="wallet_li_img" src="../../assets/my/领取红包.png" />
+					</span>
 				</li>
 				<li>
 					<div id="wallet_li_div">
 						<span class="wallet_li_span1" style="margin-left: 1px;">银行卡立减</span>
 						<span class="wallet_li_span2">最高可减210元</span>
 					</div>
-					<span class="wallet_li_span3"><img class="wallet_li_img" src="../../assets/my/领取红包.png" /></span>
+					<span class="wallet_li_span3">
+						<img class="wallet_li_img" src="../../assets/my/领取红包.png" />
+					</span>
 				</li>
 				<li style="position: relative; top: 5px;">
 					<div id="wallet_li_div">
 						<span class="wallet_li_span1" style="margin-left: 1px;">理财送3元</span>
 						<span class="wallet_li_span2">存100元可得</span>
 					</div>
-					<span class="wallet_li_span3" style="margin-left: 10px;" ><img class="wallet_li_img" src="../../assets/my/领取红包.png" /></span>
+					<span class="wallet_li_span3" style="margin-left: 10px;">
+						<img class="wallet_li_img" src="../../assets/my/领取红包.png" />
+					</span>
 				</li>
 				<li style="position: relative; top: 5px;">
 					<div id="wallet_li_div">
 						<span class="wallet_li_span1">推荐有奖</span>
 						<span class="wallet_li_span2">邀友办卡享好礼</span>
 					</div>
-					<span class="wallet_li_span3"><img class="wallet_li_img" src="../../assets/my/领取红包.png" /></span>
+					<span class="wallet_li_span3">
+						<img class="wallet_li_img" src="../../assets/my/领取红包.png" />
+					</span>
 				</li>
 			</ul>
 			<div style="position: relative;width: 100%;height: 1px;background-color: #d7d7d7;top: 55px;"></div>
@@ -95,11 +121,15 @@
 		</div>
 
 		<div id="wallet_div7">
-			<span class="wallet_div7_span1"><img src="../../assets/my/wallet/理财(1).png" />&nbsp;理财|&nbsp;精选银行存款</span>
-			<span class="wallet_div7_span2">50元起购,年化<span style="color: #EE3B3B;">4.1%</span></span>
+			<span class="wallet_div7_span1">
+				<img src="../../assets/my/wallet/理财(1).png" />&nbsp;理财|&nbsp;精选银行存款
+			</span>
+			<span class="wallet_div7_span2">
+				50元起购,年化
+				<span style="color: #EE3B3B;">4.1%</span>
+			</span>
 			<span class="wallet_div7_span3">本息保障,随时支取</span>
 		</div>
-
 	</div>
 </template>
 
@@ -285,38 +315,44 @@
 		border-radius: 10px;
 		background-color: #fff;
 	}
-	#wallet_div6_ul li{
+
+	#wallet_div6_ul li {
 		float: left;
 		margin-top: 10px;
 		width: 153px;
 	}
-	#wallet_li_div{
+
+	#wallet_li_div {
 		float: left;
 	}
-	.wallet_li_span1{
-		display: block;	
+
+	.wallet_li_span1 {
+		display: block;
 		font-size: 14px;
 		font-weight: 600;
 		margin-left: -15px;
 	}
-	.wallet_li_span2{
+
+	.wallet_li_span2 {
 		font-size: 11px;
 		color: #646566;
 	}
-	.wallet_li_span3{
+
+	.wallet_li_span3 {
 		position: relative;
 		border-radius: 50%;
 		padding: 12px;
-		background-color: #EED5D2;
+		background-color: #eed5d2;
 		top: 5px;
 	}
-	.wallet_li_img{
+
+	.wallet_li_img {
 		position: relative;
 		top: 10px;
 		width: 20px;
 		height: 20px;
 	}
-	
+
 	#wallet_div7 {
 		position: absolute;
 		padding: 3%;
@@ -327,18 +363,21 @@
 		border-radius: 10px;
 		background-color: #fff;
 	}
-	.wallet_div7_span1{
+
+	.wallet_div7_span1 {
 		position: relative;
 		display: block;
 		font-size: 12px;
 		margin-left: -160px;
 		margin-top: 10px;
 	}
-	.wallet_div7_span1 img{
+
+	.wallet_div7_span1 img {
 		width: 12px;
 		height: 12px;
 	}
-	.wallet_div7_span2{
+
+	.wallet_div7_span2 {
 		position: relative;
 		display: block;
 		font-size: 15px;
@@ -346,7 +385,8 @@
 		margin-left: -155px;
 		margin-top: 15px;
 	}
-	.wallet_div7_span3{
+
+	.wallet_div7_span3 {
 		position: relative;
 		color: #646566;
 		font-size: 11px;
